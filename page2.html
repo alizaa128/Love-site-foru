@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tattoo Lyrics</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background: linear-gradient(to top left, #240046, #3c096c);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .lyrics {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+        audio {
+            margin-bottom: 30px;
+        }
+        .see-button {
+            padding: 15px 30px;
+            background-color: #c77dff;
+            border: none;
+            border-radius: 30px;
+            color: white;
+            font-size: 1.2em;
+            cursor: pointer;
+        }
+        .see-button:hover {
+            background-color: #e0aaff;
+        }
+    </style>
+</head>
+<body>
+    <div class="lyrics">"And all I care about is you<br>You're stuck on me like a tattoo"</div>
+    <audio autoplay loop>
+        <source src="tattoo.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <button class="see-button" onclick="location.href='page3.html'">See this!</button>
+</body>
+</html>

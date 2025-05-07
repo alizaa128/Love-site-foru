@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bears Hugging</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background: linear-gradient(to bottom, #3f37c9, #4895ef);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .gif-container img {
+            width: 250px;
+            height: auto;
+            border-radius: 20px;
+            animation: pulse 2s infinite;
+        }
+        .message {
+            margin-top: 20px;
+            font-size: 1.5em;
+            font-weight: bold;
+            font-style: italic;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="gif-container">
+        <img src="hugging-bears.gif" alt="Hugging Bears">
+    </div>
+    <div class="message">I know it's not much but just something that shows you how much I love you, hehehe</div>
+</body>
+</html>
