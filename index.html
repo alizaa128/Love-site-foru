@@ -1,57 +1,21 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>I Love You Pookie</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Comic Sans MS', cursive, sans-serif;
-            background: linear-gradient(to bottom right, #2e003e, #5a189a);
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            overflow: hidden;
-        }
-        .window {
-            background-color: rgba(0, 0, 0, 0.8);
-            padding: 40px;
-            border-radius: 20px;
-            box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
-            text-align: center;
-            animation: fadeIn 2s ease;
-        }
-        .title {
-            font-size: 2.5em;
-            font-weight: bold;
-        }
-        .heart-button {
-            margin-top: 20px;
-            padding: 15px 30px;
-            background-color: #7b2cbf;
-            color: white;
-            font-size: 1.2em;
-            border: none;
-            border-radius: 30px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-        .heart-button:hover {
-            background-color: #9d4edd;
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(-20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pookie, do you love me?</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div class="window">
-        <div class="title">I love you pookie</div>
-        <button class="heart-button" onclick="location.href='page2.html'">Click on this heart 🫶</button>
+  <div class="container">
+    <h1>Pookie, do you love me?</h1>
+    <div class="buttons">
+      <button id="yesBtn">Yes</button>
+      <button id="noBtn">No</button>
     </div>
+    <img src="snickers1.png" class="snicker" alt="Snickers 1"/>
+    <img src="snickers2.png" class="snicker" alt="Snickers 2"/>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
